@@ -16,12 +16,12 @@
       "actions": [
         {
           "type": "origins:execute_command",
-          "command": "effect give @p[distance=..12] minecraft:dolphins_grace 2",
+          "command": "effect give @a[distance=..12] minecraft:dolphins_grace 2",
           "permission_level": 4
         },
         {
           "type": "origins:execute_command",
-          "command": "effect give @p[distance=..12] minecraft:water_breathing 2",
+          "command": "effect give @a[distance=..12] minecraft:water_breathing 2",
           "permission_level": 4
         }
       ]
