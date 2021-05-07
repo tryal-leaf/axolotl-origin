@@ -20,7 +20,6 @@ An add-on to the [Origins](https://www.curseforge.com/minecraft/mc-mods/origins)
 > 🟡 **Gills:** You can breathe underwater, but not on land.  
 >
 > 🔴 **Fragile:** You have 3 less hearts of health than humans.  
-> 🔴 **Weak Limbs:** Your legs are not made for walking on land. You are weak and extremely slow when not in water.  
 > 🔴 **Aquatic:** You take increased damage from Impaling.  
 
 ### Requirements
