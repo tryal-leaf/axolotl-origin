@@ -6,7 +6,7 @@ An add-on to the [Origins](https://www.curseforge.com/minecraft/mc-mods/origins)
 >
 > Axolotls are aquatic creatures that do not like leaving their watery homes.
 >
-> 🟢 **Play Dead:** Upon taking fatal damage, you play dead for four seconds. While in this state, you regenerate health but are unable to move.  
+> 🟢 **Play Dead:** Upon taking fatal damage, you play dead for 4 seconds. While in this state, you regenerate health but are unable to move.  
 > 🟢 **Axolotl's Grace:** You can grant yourself and other players within a 12 block radius Dolphin's Grace and water breathing. However, it increases hunger consumption.  
 > 🟢 **Indefatigable:** You are immune to all mining fatigue effects.  
 > 🟢 **Feathery Gills:** You can breathe underwater.  

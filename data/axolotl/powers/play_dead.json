@@ -102,5 +102,5 @@
     }
   },
   "name": "Play Dead",
-  "description": "Upon taking fatal damage, you play dead for four seconds. While in this state, you regenerate health but are unable to move."
+  "description": "Upon taking fatal damage, you play dead for 4 seconds. While in this state, you regenerate health but are unable to move."
 }
