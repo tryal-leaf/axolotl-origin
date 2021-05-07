@@ -1,0 +1,8 @@
+{
+  "type": "origins:effect_immunity",
+  "effects": [
+    "minecraft:mining_fatigue"
+  ],
+  "name": "Indefatigable",
+  "description": "You are immune to all mining fatigue effects."
+}

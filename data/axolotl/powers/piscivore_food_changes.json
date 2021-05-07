@@ -1,0 +1,106 @@
+{
+  "type": "origins:multiple",
+  "raw_cod": {
+    "type": "origins:modify_food",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:cod"
+      }
+    },
+    "food_modifier": {
+      "operation": "addition",
+      "value": 4.0
+    },
+    "saturation_modifier": {
+      "operation": "addition",
+      "value": 9.2
+    }
+  },
+  "raw_salmon": {
+    "type": "origins:modify_food",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:salmon"
+      }
+    },
+    "food_modifier": {
+      "operation": "addition",
+      "value": 6.0
+    },
+    "saturation_modifier": {
+      "operation": "addition",
+      "value": 12.1
+    }
+  },
+  "tropical_fish": {
+    "type": "origins:modify_food",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:tropical_fish"
+      }
+    },
+    "food_modifier": {
+      "operation": "addition",
+      "value": 5.0
+    },
+    "saturation_modifier": {
+      "operation": "addition",
+      "value": 14.2
+    }
+  },
+  "pufferfish": {
+    "type": "origins:modify_food",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:pufferfish"
+      }
+    },
+    "food_modifier": {
+      "operation": "addition",
+      "value": 4.0
+    },
+    "saturation_modifier": {
+      "operation": "addition",
+      "value": 5.8
+    }
+  },
+  "cooked_cod": {
+    "type": "origins:modify_food",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:cooked_cod"
+      }
+    },
+    "food_modifier": {
+      "operation": "addition",
+      "value": -3.0
+    },
+    "saturation_modifier": {
+      "operation": "addition",
+      "value": -5.6
+    }
+  },
+  "cooked_salmon": {
+    "type": "origins:modify_food",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:cooked_salmon"
+      }
+    },
+    "food_modifier": {
+      "operation": "addition",
+      "value": -4.0
+    },
+    "saturation_modifier": {
+      "operation": "addition",
+      "value": -9.2
+    }
+  },
+  "hidden": true
+}

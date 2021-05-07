@@ -1,0 +1,23 @@
+{
+  "powers": [
+    "axolotl:play_dead",
+    "axolotl:axolotls_grace",
+    "axolotl:half_sized",
+    "origins:fragile",
+    "axolotl:piscivore",
+    "axolotl:piscivore_food_changes",
+    "axolotl:mining_immunity",
+    "axolotl:weak_limbs",
+    "origins:aquatic",
+    "axolotl:water_breathing",
+    "axolotl:swim_speed",
+    "axolotl:water_vision",
+    "origins:aqua_affinity",
+    "origins:like_water"
+  ],
+  "icon": "minecraft:tropical_fish_bucket",
+  "order": 0,
+  "impact": 3,
+  "name": "Axolotl",
+  "description": "Axolotls are aquatic creatures that do not like leaving their watery homes."
+}

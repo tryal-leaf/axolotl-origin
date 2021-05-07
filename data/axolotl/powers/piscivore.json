@@ -1,0 +1,37 @@
+{
+  "type": "origins:multiple",
+  "no_cake": {
+    "type": "origins:prevent_block_use",
+    "block_condition": {
+      "type": "origins:block",
+      "block": "minecraft:cake"
+    }
+  },
+  "allowed_foods": {
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:food"
+        },
+        {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "tag": "axolotl:seafood"
+          },
+          "inverted": true
+        },
+        {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "tag": "origins:ignore_diet"
+          },
+          "inverted": true
+        }
+      ]
+    }
+  },
+  "name": "Piscivore",
+  "description": "Your diet consists of only fish. Raw fish gives increased food and saturation, while cooked fish gives very little."
+}
