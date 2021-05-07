@@ -15,6 +15,7 @@ An add-on to the [Origins](https://www.curseforge.com/minecraft/mc-mods/origins)
 > 🟢 **Aqua Affinity:** You may break blocks underwater as others do on land.  
 > 🟢 **Like Water:** When underwater, you do not sink to the ground unless you want to.  
 >
+> 🟡 **Ocean Spawn:** Your natural spawn is near the ocean.  
 > 🟡 **Half-Sized:** You are 1 block tall, half the size of a human.  
 > 🟡 **Piscivore:** Your diet consists of only fish. Raw fish gives increased food and saturation, while cooked fish gives very little.  
 >
