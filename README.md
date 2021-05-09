@@ -16,7 +16,7 @@ An add-on to the [Origins](https://www.curseforge.com/minecraft/mc-mods/origins)
 >
 > 🟡 **Ocean Spawn:** Your natural spawn is near the ocean.  
 > 🟡 **Half-Sized:** You are 1 block tall, half the size of a human.  
-> 🟡 **Piscivore:** Your preferred diet is fish. Raw fish give increased food and saturation, while cooked fish and other types of meat give less. Non-meat foods have very little nutritional value and inflict hunger when eaten. Magical foods, such as Golden Apples, behave normally.  
+> 🟡 **Piscivore:** Your diet consists of only meat, mainly fish. Raw fish give increased food and saturation, while cooked fish and other types of meat give less. Magical foods, such as Golden Apples, behave normally.  
 > 🟡 **Gills:** You can breathe underwater, but not on land.  
 >
 > 🔴 **Fragile:** You have 3 less hearts of health than humans.  
