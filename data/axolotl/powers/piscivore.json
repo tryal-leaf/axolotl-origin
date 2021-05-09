@@ -1,37 +1,50 @@
 {
-  "type": "origins:multiple",
-  "no_cake": {
-    "type": "origins:prevent_block_use",
-    "block_condition": {
-      "type": "origins:block",
-      "block": "minecraft:cake"
+  "type": "origins:modify_food",
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:hunger",
+      "duration": 600,
+      "amplifier": 0
     }
   },
-  "allowed_foods": {
-    "type": "origins:prevent_item_use",
-    "item_condition": {
-      "type": "origins:and",
-      "conditions": [
-        {
-          "type": "origins:food"
-        },
-        {
-          "type": "origins:ingredient",
-          "ingredient": {
-            "tag": "axolotl:seafood"
+  "item_condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:food"
+      },
+      {
+        "type": "origins:or",
+        "conditions": [
+          {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "tag": "origins:meat"
+            }
           },
-          "inverted": true
+          {
+            "type": "origins:meat"
+          }
+        ],
+        "inverted": true
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "axolotl:magic_food"
         },
-        {
-          "type": "origins:ingredient",
-          "ingredient": {
-            "tag": "origins:ignore_diet"
-          },
-          "inverted": true
-        }
-      ]
-    }
+        "inverted": true
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "origins:ignore_diet"
+        },
+        "inverted": true
+      }
+    ]
   },
   "name": "Piscivore",
-  "description": "Your diet consists of only fish. Raw fish gives increased food and saturation, while cooked fish gives very little."
+  "description": "Your diet consists of primarily fish. Raw fish give increased food and saturation, while cooked fish and other types of meat give less. Additionally, non-meat foods have very little nutritional value and inflict hunger when eaten. Magical foods, such as Golden Apples, remain unchanged."
 }
