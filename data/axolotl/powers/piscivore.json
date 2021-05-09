@@ -46,5 +46,5 @@
     ]
   },
   "name": "Piscivore",
-  "description": "Your diet consists of primarily fish. Raw fish give increased food and saturation, while cooked fish and other types of meat give less. Additionally, non-meat foods have very little nutritional value and inflict hunger when eaten. Magical foods, such as Golden Apples, behave normally."
+  "description": "Your preferred diet is fish. Raw fish give increased food and saturation, while cooked fish and other types of meat give less. Non-meat foods have very little nutritional value and inflict hunger when eaten. Magical foods, such as Golden Apples, behave normally."
 }
