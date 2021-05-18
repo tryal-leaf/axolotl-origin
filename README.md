@@ -22,6 +22,10 @@ An add-on to the [Origins](https://www.curseforge.com/minecraft/mc-mods/origins)
 > 🔴 **Fragile:** You have 3 less hearts of health than humans.  
 > 🔴 **Aquatic:** You take increased damage from Impaling.  
 
+### Download
+
+The latest datapack download, `Axolotl.zip`, can be found in the [releases page](https://github.com/tryal-leaf/axolotl-origin/releases).
+
 ### Requirements
 
 * [Fabric loader](https://fabricmc.net/)
