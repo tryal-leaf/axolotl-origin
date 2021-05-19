@@ -48,5 +48,5 @@
     }
   },
   "name": "Piscivore",
-  "description": "Your diet consists of only meat, primarily fish. Raw fish give increased food and saturation, while cooked fish and other types of meat give less. Magical foods, such as Golden Apples, behave normally."
+  "description": "Your diet consists of only meat, primarily fish. All fish give increased food and saturation, while other types of meat give less. Magical foods, such as Golden Apples, behave normally."
 }
