@@ -31,7 +31,7 @@
     "type": "origins:active_self",
     "entity_action": {
       "type": "origins:execute_command",
-      "command": "playsound entity.dolphin.play master @a[distance=..20] ~ ~ ~ 1000 1.2",
+      "command": "playsound entity.dolphin.play master @a[distance=..16] ~ ~ ~ 1 1.2",
       "permission_level": 4
     },
     "cooldown": 0,
