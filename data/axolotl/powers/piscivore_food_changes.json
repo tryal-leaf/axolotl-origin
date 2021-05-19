@@ -1,22 +1,5 @@
 {
   "type": "origins:multiple",
-  "cooked_salmon": {
-    "type": "origins:modify_food",
-    "item_condition": {
-      "type": "origins:ingredient",
-      "ingredient": {
-        "item": "minecraft:cooked_salmon"
-      }
-    },
-    "food_modifier": {
-      "operation": "addition",
-      "value": -1.0
-    },
-    "saturation_modifier": {
-      "operation": "addition",
-      "value": -3.6
-    }
-  },
   "cooked_cod": {
     "type": "origins:modify_food",
     "item_condition": {
@@ -27,31 +10,31 @@
     },
     "food_modifier": {
       "operation": "addition",
-      "value": -1.0
+      "value": 1.0
     },
     "saturation_modifier": {
       "operation": "addition",
-      "value": -1.2
+      "value": 3.6
     }
   },
-  "raw_salmon": {
+  "cooked_salmon": {
     "type": "origins:modify_food",
     "item_condition": {
       "type": "origins:ingredient",
       "ingredient": {
-        "item": "minecraft:salmon"
+        "item": "minecraft:cooked_salmon"
       }
     },
     "food_modifier": {
       "operation": "addition",
-      "value": 6.0
+      "value": 2.0
     },
     "saturation_modifier": {
       "operation": "addition",
-      "value": 12.6
+      "value": 3.2
     }
   },
-  "raw_cod": {
+  "cod": {
     "type": "origins:modify_food",
     "item_condition": {
       "type": "origins:ingredient",
@@ -61,11 +44,28 @@
     },
     "food_modifier": {
       "operation": "addition",
-      "value": 4.0
+      "value": 1.0
     },
     "saturation_modifier": {
       "operation": "addition",
-      "value": 9.2
+      "value": 3.2
+    }
+  },
+  "salmon": {
+    "type": "origins:modify_food",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:salmon"
+      }
+    },
+    "food_modifier": {
+      "operation": "addition",
+      "value": 2.0
+    },
+    "saturation_modifier": {
+      "operation": "addition",
+      "value": 4.6
     }
   },
   "tropical_fish": {
@@ -95,172 +95,56 @@
     },
     "food_modifier": {
       "operation": "addition",
-      "value": 4.0
+      "value": 3.0
     },
     "saturation_modifier": {
       "operation": "addition",
-      "value": 5.8
+      "value": 4.6
     }
   },
 
 
-  "rabbit_stew": {
+  "non_seafood": {
     "type": "origins:modify_food",
     "item_condition": {
-      "type": "origins:ingredient",
-      "ingredient": {
-        "item": "minecraft:rabbit_stew"
-      }
-    },
-    "food_modifier": {
-      "operation": "addition",
-      "value": -5.0
-    },
-    "saturation_modifier": {
-      "operation": "addition",
-      "value": -6
-    }
-  },
-  "cp_cb": {
-    "type": "origins:modify_food",
-    "item_condition": {
-      "type": "origins:ingredient",
-      "ingredient": [
+      "type": "origins:and",
+      "conditions": [
         {
-          "item": "minecraft:cooked_porkchop"
+          "type": "origins:ingredient",
+          "ingredient": {
+            "tag": "origins:meat"
+          }
         },
         {
-          "item": "minecraft:cooked_beef"
+          "type": "origins:ingredient",
+          "ingredient": {
+            "tag": "axolotl:seafood"
+          },
+          "inverted": true
+        },
+        {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "tag": "axolotl:magic_food"
+          },
+          "inverted": true
+        },
+        {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "tag": "origins:ignore_diet"
+          },
+          "inverted": true
         }
       ]
     },
     "food_modifier": {
-      "operation": "addition",
-      "value": -5.0
+      "operation": "multiply_base",
+      "value": -0.5
     },
     "saturation_modifier": {
-      "operation": "addition",
-      "value": -9.2
-    }
-  },
-  "cooked_mutton": {
-    "type": "origins:modify_food",
-    "item_condition": {
-      "type": "origins:ingredient",
-      "ingredient": {
-        "item": "minecraft:cooked_mutton"
-      }
-    },
-    "food_modifier": {
-      "operation": "addition",
-      "value": -4
-    },
-    "saturation_modifier": {
-      "operation": "addition",
-      "value": -5.4
-    }
-  },
-  "cooked_chicken": {
-    "type": "origins:modify_food",
-    "item_condition": {
-      "type": "origins:ingredient",
-      "ingredient": {
-        "item": "minecraft:cooked_chicken"
-      }
-    },
-    "food_modifier": {
-      "operation": "addition",
-      "value": -4.0
-    },
-    "saturation_modifier": {
-      "operation": "addition",
-      "value": -4.8
-    }
-  },
-  "cooked_rabbit": {
-    "type": "origins:modify_food",
-    "item_condition": {
-      "type": "origins:ingredient",
-      "ingredient": {
-        "item": "minecraft:cooked_rabbit"
-      }
-    },
-    "food_modifier": {
-      "operation": "addition",
-      "value": -3.0
-    },
-    "saturation_modifier": {
-      "operation": "addition",
-      "value": -3.6
-    }
-  },
-  "b_p": {
-    "type": "origins:modify_food",
-    "item_condition": {
-      "type": "origins:ingredient",
-      "ingredient": [
-        {
-          "item": "minecraft:beef"
-        },
-        {
-          "item": "minecraft:porkchop"
-        }
-      ]
-    },
-    "food_modifier": {
-      "operation": "addition",
-      "value": 1.0
-    },
-    "saturation_modifier": {
-      "operation": "addition",
-      "value": 3.0
-    }
-  },
-  "mutton": {
-    "type": "origins:modify_food",
-    "item_condition": {
-      "type": "origins:ingredient",
-      "ingredient": {
-        "item": "minecraft:mutton"
-      }
-    },
-    "food_modifier": {
-      "operation": "addition",
-      "value": 1.5
-    },
-    "saturation_modifier": {
-      "operation": "addition",
-      "value": 3.0
-    }
-  },
-  "chicken": {
-    "type": "origins:modify_food",
-    "item_condition": {
-      "type": "origins:ingredient",
-      "ingredient": {
-        "item": "minecraft:chicken"
-      }
-    },
-    "food_modifier": {
-      "operation": "addition",
-      "value": 1.0
-    },
-    "saturation_modifier": {
-      "operation": "addition",
-      "value": 1.4
-    }
-  },
-  "rabbit": {
-    "type": "origins:modify_food",
-    "item_condition": {
-      "type": "origins:ingredient",
-      "ingredient": {
-        "item": "minecraft:rabbit"
-      }
-    },
-    "saturation_modifier": {
-      "operation": "addition",
-      "value": 1.8
+      "operation": "multiply_base",
+      "value": -0.5
     }
   },
   "hidden": true
